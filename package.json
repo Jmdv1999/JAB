@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
     "moment": "^2.30.1",
     "open": "^10.0.3"
   },
-  "scripts" : {
+  "scripts": {
     "start": "node main.js",
-    "UpdateCommands" : "node load_commands.js"
+    "UpdateCommands": "node load_commands.js"
   },
   "type": "module"
 }
